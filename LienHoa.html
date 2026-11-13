@@ -743,11 +743,16 @@ document.addEventListener('keydown',e=>{
   }
 });
 </script>
+<!-- Thư viện Âm Lịch (bắt buộc trước calendar-core.js) -->
+<script src="https://cdn.jsdelivr.net/npm/@nghiavuive/lunar_date_vi@latest/dist/index.umd.js"></script>
 
+<!-- Calendar Core – phải nằm cùng thư mục với file HTML này -->
+<script src="calendar-core.js"></script>
 <!-- ===== MODULES (cùng thư mục với file này) ===== -->
 <script src="khongthoituong.js" defer></script>
 <script src="chuyentuong.js" defer></script>
 <script src="dichtu.js" defer></script>
 <script src="dichtuplus.js" defer></script>
 <script src="thedung.js" defer></script>
+</body>
 </html>
